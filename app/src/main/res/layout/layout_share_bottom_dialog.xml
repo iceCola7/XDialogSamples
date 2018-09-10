@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#FFFFFF"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingTop="6dp">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_share_dialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/divider"
-        android:layout_marginTop="6dp" />
+        android:layout_above="@+id/divider" />
 
     <View
         android:id="@+id/divider"
