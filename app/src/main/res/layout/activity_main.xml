@@ -13,4 +13,11 @@
         android:text="Share Bottom Dialog"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_edit_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Bottom Dialog"
+        android:textAllCaps="false" />
+
 </LinearLayout>
