@@ -1,4 +1,4 @@
-package com.cxz.xdialog;
+package com.cxz.xdialog.bottom;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.cxz.xdialog.R;
 
 /**
  * @author chenxz

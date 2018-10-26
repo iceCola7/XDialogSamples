@@ -1,4 +1,4 @@
-package com.cxz.xdialog;
+package com.cxz.xdialog.bottom;
 
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
