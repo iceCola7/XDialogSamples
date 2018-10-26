@@ -4,7 +4,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.cxz.xdialog.BaseBottomDialog;
+import com.cxz.xdialog.bottom.BaseBottomDialog;
 import com.cxz.xdialog.samples.R;
 import com.cxz.xdialog.samples.adapter.ShareBottomAdapter;
 import com.cxz.xdialog.samples.bean.ItemBean;

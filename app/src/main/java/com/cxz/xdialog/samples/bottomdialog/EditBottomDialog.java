@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
-import com.cxz.xdialog.BaseBottomDialog;
+import com.cxz.xdialog.bottom.BaseBottomDialog;
 import com.cxz.xdialog.samples.R;
 
 /**
