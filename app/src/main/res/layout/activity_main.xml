@@ -20,4 +20,11 @@
         android:text="Edit Bottom Dialog"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Sheet Dialog"
+        android:textAllCaps="false" />
+
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.view.View;
 
 import com.cxz.xdialog.samples.bottomdialog.EditBottomDialog;
 import com.cxz.xdialog.samples.bottomdialog.ShareBottomDialog;
+import com.cxz.xdialog.samples.bottomdialog.TestBottomSheetDialog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +26,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new EditBottomDialog().show(getSupportFragmentManager());
+            }
+        });
+
+        findViewById(R.id.btn_bottom_sheet).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TestBottomSheetDialog dialog = new TestBottomSheetDialog();
+                dialog.show(getSupportFragmentManager(), "bottom_sheet_dialog");
             }
         });
 
